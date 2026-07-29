@@ -1,0 +1,8 @@
+[Plugin]
+Module=keepselection
+IAge=3
+Name=選択範囲だけ残す
+Description=選択範囲以外のテキストを削除します。
+Authors=にどねるzzZ
+Copyright=Copyright © 2026 にどねるzzZ
+Website=https://note.com/nidoneru_zzz
