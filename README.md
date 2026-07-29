@@ -11,7 +11,7 @@ A plugin for **gedit 50** that keeps only the current text selection.
 - Keeps only the current text selection.
 - Supports Undo.
 - Accessible from the editor's context menu.
-- Keyboard shortcut: **Ctrl+L**
+- Keyboard shortcut: **Ctrl+K**
 - Available in English and Japanese.
 
 ## Installation
