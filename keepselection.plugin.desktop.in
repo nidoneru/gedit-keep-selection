@@ -1,8 +1,10 @@
 [Plugin]
 Module=keepselection
 IAge=3
-Name=選択範囲だけ残す
-Description=選択範囲以外のテキストを削除します。
+Name=Keep Selection
+Name[ja]=選択範囲だけ残す
+Description=Keeps only the selected text and deletes everything else.
+Description[ja]=選択範囲以外のテキストを削除します。
 Authors=にどねるzzZ
 Copyright=Copyright © 2026 にどねるzzZ
 Website=https://github.com/nidoneru/gedit-keep-selection

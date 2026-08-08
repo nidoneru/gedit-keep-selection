@@ -172,6 +172,35 @@ keep_selection_only_cb (
 	);
 }
 
+static gboolean
+is_japanese_locale (void)
+{
+	const gchar * const *languages;
+
+	languages = g_get_language_names ();
+
+	for (gint i = 0; languages[i] != NULL; i++)
+	{
+		if (g_str_has_prefix (languages[i], "ja"))
+		{
+			return TRUE;
+		}
+	}
+
+	return FALSE;
+}
+
+static const gchar *
+get_keep_selection_label (void)
+{
+	if (is_japanese_locale ())
+	{
+		return "選択範囲だけ残す";
+	}
+
+	return "Keep Selection";
+}
+
 static void
 populate_popup_cb (
 	GtkTextView                       *text_view,
@@ -208,7 +237,7 @@ populate_popup_cb (
 	);
 
 	item = gtk_menu_item_new_with_label (
-		"選択範囲だけ残す"
+		get_keep_selection_label ()
 	);
 
 	gtk_widget_set_sensitive (

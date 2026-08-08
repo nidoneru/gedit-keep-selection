@@ -5,6 +5,8 @@
 #include "gedit-keep-selection-view-activatable.h"
 
 #include <libpeas/peas.h>
+G_MODULE_EXPORT void peas_register_types (PeasObjectModule *module);
+
 
 G_MODULE_EXPORT void
 peas_register_types (

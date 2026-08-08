@@ -1,6 +1,6 @@
 # Keep Selection
 
-A plugin for **gedit 50** that keeps only the current text selection.
+A plugin for gedit that keeps only the current text selection.
 
 🇯🇵 Japanese documentation: [README_ja.md](README_ja.md)
 
@@ -12,11 +12,17 @@ A plugin for **gedit 50** that keeps only the current text selection.
 - Supports Undo.
 - Accessible from the editor's context menu.
 - Keyboard shortcut: **Ctrl+K**
-- Available in English and Japanese.
+- English interface by default, with Japanese localization.
+
+## Compatibility
+
+Designed for **gedit 48.2 and later**.
+
+Tested on **gedit 50**.
 
 ## Installation
 
-This prebuilt release is intended for the **Flatpak version of gedit 50**.
+The prebuilt release is intended for the **Flatpak version of gedit**.
 
 Copy the following files to:
 
