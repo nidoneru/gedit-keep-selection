@@ -18,7 +18,7 @@ A plugin for gedit that keeps only the current text selection.
 
 Designed for **gedit 48.2 and later**.
 
-Tested on **gedit 50**.
+Tested on **gedit 51**.
 
 ## Installation
 
